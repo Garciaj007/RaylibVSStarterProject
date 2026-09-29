@@ -1,0 +1,40 @@
+# vcpkg
+vcpkg_installed/
+vcpkg/
+.vcpkg-root
+
+# Visual Studio
+.vs/
+*.sln.DotSettings.user
+Debug/
+Release/
+x64/
+x86/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Build artifacts
+[Bb]in/
+[Oo]ut/
+[Bb]uild/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.a
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies and packages
+packages/
+*.lock.json

@@ -1,0 +1,17 @@
+{
+  "name": "raylib",
+  "version-string": "master",
+  "description": "raylib from upstream master",
+  "homepage": "https://github.com/raysan5/raylib",
+  "license": "Zlib",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
