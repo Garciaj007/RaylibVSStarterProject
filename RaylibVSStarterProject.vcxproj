@@ -24,6 +24,7 @@
     <ProjectGuid>{d747d61e-c7ab-4771-bbd8-048c29496dfb}</ProjectGuid>
     <RootNamespace>RaylibVSStarterProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>RaylibStarterProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -158,13 +159,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="overlays\raylib\portfile.cmake" />
     <None Include="overlays\raylib\vcpkg.json" />
-    <None Include="RaylibVSStarterProject.slnx" />
     <None Include="vcpkg-configuration.json" />
     <None Include="vcpkg.json" />
   </ItemGroup>
