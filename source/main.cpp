@@ -1,16 +1,9 @@
-#include <raylib.h>
+#include "Game.h"
+
+extern std::string_view PROJECT_NAME = "Hello Raylib";
 
 int main()
 {
-	InitWindow(800, 450, "Hello Raylib");
-	SetTargetFPS(60);
-	while (!WindowShouldClose())
-	{
-		BeginDrawing();
-		ClearBackground(RAYWHITE);
-		DrawText("Hello, World!", 190, 200, 20, DARKGRAY);
-		EndDrawing();
-	}
-	CloseWindow();
-	return 0;
+	Game game = Game();
+	game.run();
 }

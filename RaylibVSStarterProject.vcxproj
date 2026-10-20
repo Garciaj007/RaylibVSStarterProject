@@ -168,6 +168,12 @@
     <None Include="vcpkg-configuration.json" />
     <None Include="vcpkg.json" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Game.h" />
+    <ClInclude Include="source\SceneOne.h" />
+    <ClInclude Include="source\SceneTwo.h" />
+    <ClInclude Include="source\Scene.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
