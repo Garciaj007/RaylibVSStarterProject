@@ -16,7 +16,6 @@ public:
 
 	virtual std::string_view get_name() const = 0;
 
-	virtual void start() = 0;
 	virtual void resize(int width, int height) = 0;
 	virtual void update(float time, float dt) = 0;
 	virtual void render() = 0;
@@ -67,7 +66,6 @@ public:
 		{
 			current_key = key;
 			current_scene = std::unique_ptr<Scene>(it->second->create());
-			current_scene->start();
 			current_scene->resize(GetScreenWidth(), GetScreenHeight());
 			SetWindowTitle(TextFormat("%s - %s", PROJECT_NAME.data(), current_scene->get_name().data()));
 		}

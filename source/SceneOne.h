@@ -10,7 +10,6 @@ public:
 
 	std::string_view get_name() const override { return "Scene One"; }
 
-	void start() override {}
 	void resize(int width, int height) override {}
 	void update(float time, float dt) override {}
 	void render() override

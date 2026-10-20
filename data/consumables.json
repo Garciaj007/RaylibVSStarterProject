@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "healthGain": 10,
+      "id": "HealthPotion",
+      "manaGain": 20,
+      "staminaGain": 0
+    },
+    {
+      "healthGain": 0,
+      "id": "ManaPotion",
+      "manaGain": 20,
+      "staminaGain": 0
+    },
+    {
+      "healthGain": 0,
+      "id": "StaminaPotion",
+      "manaGain": 0,
+      "staminaGain": 30
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "damage": 5,
+      "id": "manaSword",
+      "manaCost": 0,
+      "name": "Mana Sword",
+      "staminaCost": 1
+    },
+    {
+      "damage": 20,
+      "id": "ultimateSword",
+      "manaCost": 10,
+      "name": "Ultimate Sword",
+      "staminaCost": 5
+    },
+    {
+      "damage": 5,
+      "id": "staminaSword",
+      "manaCost": 5,
+      "name": "Stamina Sword",
+      "staminaCost": 0
+    }
+  ]
+}

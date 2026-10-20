@@ -169,10 +169,15 @@
     <None Include="vcpkg.json" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="source\Consumable.h" />
     <ClInclude Include="source\Game.h" />
+    <ClInclude Include="source\Physics.h" />
+    <ClInclude Include="source\Repository.h" />
     <ClInclude Include="source\SceneOne.h" />
+    <ClInclude Include="source\SceneThree.h" />
     <ClInclude Include="source\SceneTwo.h" />
     <ClInclude Include="source\Scene.h" />
+    <ClInclude Include="source\Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

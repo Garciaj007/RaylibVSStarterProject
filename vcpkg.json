@@ -2,7 +2,6 @@
   "dependencies": [
     "box2d",
     "nlohmann-json",
-    "raylib",
-    "flecs"
+    "raylib"
   ]
 }
